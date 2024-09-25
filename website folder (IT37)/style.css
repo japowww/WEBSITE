@@ -1,0 +1,19 @@
+.body{
+    background-image: url("/website folder (IT37)/pics/background.png");
+background-repeat: no-repeat;
+background-size: cover;
+backdrop-filter: blur(3px) ;
+padding-top: 80px;  }
+
+.word {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: antiquewhite;
+    margin: 20px auto; 
+    padding: 20px; 
+    max-width: 800px; 
+    font-size: large;
+    border-style: ridge;
+    border-color: 	#f1efee;
+    background-color: #86492f;
+}
