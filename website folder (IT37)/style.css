@@ -17,3 +17,20 @@ padding-top: 80px;  }
     border-color: 	#f1efee;
     background-color: #86492f;
 }
+
+footer {
+    background-color: #b66736;
+    color: white;
+    padding: 20px 0;
+    text-align: center; /* Center the text in the footer */
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
