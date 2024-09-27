@@ -1,9 +1,12 @@
 .body{
-    background-image: url("/website folder (IT37)/pics/background.png");
+    background-color: #1A3636;
 background-repeat: no-repeat;
 background-size: cover;
 backdrop-filter: blur(3px) ;
-padding-top: 80px;  }
+padding-top: 80px;  
+overflow-x: hidden;
+}
+
 
 .word {
     text-align: center;
@@ -16,4 +19,19 @@ padding-top: 80px;  }
     border-style: ridge;
     border-color: 	#f1efee;
     background-color: #86492f;
+}
+
+.navbar {
+    background-color: #1A3636;
+    /* Custom background color */
+}
+
+.navbar .nav-link {
+    color: #ffffff;
+    /* White text */
+}
+
+.navbar .nav-link:hover {
+    color: #ffc107;
+    /* Yellow on hover */   
 }
