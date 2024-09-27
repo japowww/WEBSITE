@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -11,15 +11,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-    <style>
-        .navbar-toggler {
-            border: none; /* Remove default border */
-        }
-
-        .navbar-toggler-icon {
-            background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="white" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E'); /* White icon */
-        }
-    </style>
 </head>
 
 <body class="body">
@@ -48,29 +39,27 @@
             </button>
         </div>
     </nav>
-    <form class="d-flex mt-3" role="search" style="width: 25%; margin-left: 40%; margin-bottom: 20px;">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-success" type="submit">Search</button>
-    </form>
 
     <!-- Offcanvas Menu for Small Screens -->
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel" style="background-color: white;">
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
         <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel" style="color: rgb(255, 255, 255);">Foodings</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Jaspher Eats</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        
         <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html" style="color: black;">Restaurants</a>
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Contact.html" style="color: black;">Foods</a>
+                    <a class="nav-link" href="#">Link</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="About.html" style="color: black;">Location</a>
-                    <ul class="dropdown-menu" style="background-color: white; color: black;">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        More
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
                         <li><a class="dropdown-item" href="#">Settings</a></li>
                         <li><a class="dropdown-item" href="#">Profile</a></li>
                         <li><hr class="dropdown-divider"></li>
@@ -78,73 +67,12 @@
                     </ul>
                 </li>
             </ul>
-           
+            <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+            </form>
         </div>
     </div>
-
-    <!--pics-->
-    <div class="image">
-        <img src="/website folder (IT37)/pics/d2.avif" alt="dishs" class="right-img">
-        <p class="word">
-            Welcome to Foodings!
-        </p>
-
-        <p class="message" style="font-family: Arial, Helvetica, sans-serif; color: white; font-size: large; text-align: center; line-height: 2.5; margin-right: 50%; margin-left: 20px;">
-            Discover the diverse culinary landscape of Manolo Fortich, Bukidnon, with us!
-            At Foodings, we’re dedicated to showcasing every delicious dish from the local
-            restaurants, from traditional favorites to innovative creations. Our in-depth 
-            reviews will guide you to the best dining experiences in town, helping you
-            explore the rich flavors and unique offerings of each establishment. 
-        </p>
-    </div>
-
-
-   
-    <hr class="rounded" style="background-color: rgb(255, 255, 255, 1); height: 5px; margin-top: 50px;">
-
-<h1 class="food" style="text-align: center; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 7ch;">Foods</h1>
-
-
-
-
-<!--Carousel-->
-<div class="container">
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="/website folder (IT37)/pics/d4.jpg" class="d-block" alt="rosebeef" style="object-fit: cover; width: 100%; height: 600px;">
-      </div>
-      <div class="carousel-item">
-        <img src="/website folder (IT37)/pics/d3.jpg" class="d-block" alt="d3" style="object-fit: cover; width: 100%; height: 600px;">
-      </div>
-      <div class="carousel-item">
-        <img src="/website folder (IT37)/pics/d6.jpg" class="d-block" alt="d2" style="object-fit: cover; width: 100%; height: 600px;">
-      </div>
-      <div class="carousel-item">
-        <img src="/website folder (IT37)/pics/d5.jpg" class="d-block" alt="d2" style="object-fit: cover; width: 100%; height: 600px;">
-      </div>
-      
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-</div>
-</div>
-
-
-
-
-
     <footer class="text-center mt-5">
         <div class="container">
             <div class="footer-links">
@@ -167,7 +95,6 @@
             <p>&copy; 2024 FOODINGS. All rights reserved.</p>
         </div>
     </footer>
-   
 </body>
 
 </html>

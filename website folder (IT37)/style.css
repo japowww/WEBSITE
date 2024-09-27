@@ -1,19 +1,117 @@
 .body{
-    background-image: url("/website folder (IT37)/pics/background.png");
+    background-color: #1A3636;
 background-repeat: no-repeat;
 background-size: cover;
 backdrop-filter: blur(3px) ;
-padding-top: 80px;  }
+padding-top: 80px;  
+overflow-x: hidden;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
-.word {
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Minimum height of the body to always cover the viewport */
+}
+
+/* The main content will take up all available space */
+.container {
+    flex: 1; /* Ensures the container fills the space before the footer */
+}
+
+/* Footer styling */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    color: antiquewhite;
-    margin: 20px auto; 
-    padding: 20px; 
-    max-width: 800px; 
-    font-size: large;
-    border-style: ridge;
-    border-color: 	#f1efee;
-    background-color: #86492f;
+}
+
+
+.navbar {
+    background-color: #1A3636;
+    /* Custom background color */
+}
+
+.navbar .nav-link {
+    color: #ffffff;
+    /* White text */
+}
+
+.navbar .nav-link:hover {
+    color: #302f2e;
+    /* Yellow on hover */   
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-link {
+    color: #fff; /* Adjust color to match your theme */
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #ccc; /* Adjust hover color */
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1A3636; /* Dark background color */
+    padding: 20px 0;
+    color: white;
+}
+
+.image{
+    margin-left: 60px;
+    float: right;
+}
+
+.right-img {
+    margin-top: 20px;
+    float: right; /* Aligns the image to the right */
+    width: 45.5%; /* You can adjust the width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 30px; /* Adds space around the image */
+}
+
+.word{
+    font-family: Arial, Helvetica, sans-serif, Courier, monospace;
+    margin-right: 50%;
+    margin-top: 30px;
+    font-size: 7ch;
+    color: #ffffff;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.navbar-toggler {
+    border: none; /* Remove default border */
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="white" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E'); /* White icon */
+    
+}
+
+.styled-hr {
+    height: 5px; /* Height of the line */
+    border: none; /* Remove the default border */
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(200, 200, 200, 1)); /* Gradient background */
+    border-radius: 10px; /* Rounded edges */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+    margin: 20px 0; /* Space above and below the line */
+}
+
+.carousel {
+    max-width: 100%; /* Or any specific width */
+    margin: auto; /* Center the carousel */
 }
