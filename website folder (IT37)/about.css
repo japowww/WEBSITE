@@ -1,0 +1,47 @@
+.body{
+    background-color: #1A3636;
+background-repeat: no-repeat;
+background-size: cover;
+backdrop-filter: blur(3px) ;
+padding-top: 80px;  
+overflow-x: hidden;
+}
+
+
+.navbar {
+    background-color: #1A3636;
+    /* Custom background color */
+}
+
+.navbar .nav-link {
+    color: #ffffff;
+    /* White text */
+}
+
+.navbar .nav-link:hover {
+    color: #ffc107;
+    /* Yellow on hover */   
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-link {
+    color: #fff; /* Adjust color to match your theme */
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #ccc; /* Adjust hover color */
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1A3636; /* Dark background color */
+    padding: 20px 0;
+    color: white;
+}
