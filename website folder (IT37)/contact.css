@@ -10,17 +10,17 @@ overflow-x: hidden;
 
 .navbar {
     background-color: #1A3636;
-    /* Custom background color */
+ 
 }
 
 .navbar .nav-link {
     color: #ffffff;
-    /* White text */
+   
 }
 
 .navbar .nav-link:hover {
     color: #ffc107;
-    /* Yellow on hover */   
+    
 }
 
 .footer-links {
@@ -31,17 +31,32 @@ overflow-x: hidden;
 }
 
 .footer-link {
-    color: #fff; /* Adjust color to match your theme */
+    color: #fff; 
     text-decoration: none;
 }
 
 .footer-link:hover {
-    color: #ccc; /* Adjust hover color */
+    color: #ccc; 
     text-decoration: underline;
 }
 
 footer {
-    background-color: #1A3636; /* Dark background color */
-    padding: 20px 0;
+    background-color: #1A3636;
+    padding: 150px 0;
+    color: white;
+}
+
+.bg-white {
+    background-color: black;
+}
+
+.rounded {
+    border-radius: 8px;
+}
+
+.shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h2{
     color: white;
 }
