@@ -51,4 +51,12 @@ footer {
 .word{
     font-size: 1.5em; 
     line-height: 1.5; 
+    text-align: start;
+
+}
+
+.logo{
+    float: right;
+    margin-right: 20%;
+    
 }
