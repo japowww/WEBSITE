@@ -6,6 +6,16 @@ backdrop-filter: blur(3px) ;
 padding-top: 80px;  
 overflow-x: hidden;
 }
+.second-background {
+margin-top: 3rem;
+    background-color: #D6BD98;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 13in;
+}
 html, body {
     height: 100%;
     margin: 0;
