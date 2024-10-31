@@ -36,6 +36,10 @@ footer {
 
 .navbar {
     background-color: #1A3636;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
    
 }
 
@@ -125,4 +129,12 @@ footer {
 .carousel-inner, .carousel-item {
     height: 650px;          
     overflow: hidden; 
+}
+.card {
+    background-color: transparent;
+    border: none; 
+}
+
+.card-body {
+    background-color: transparent;
 }
