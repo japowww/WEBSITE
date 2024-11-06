@@ -131,10 +131,36 @@ footer {
     overflow: hidden; 
 }
 .card {
-    background-color: transparent;
-    border: none; 
-}
+    position: relative;
+    overflow: hidden; /* Ensures the overlay doesn't go outside the card */
+  }
+  
+  .card img {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover img {
+    transform: scale(.99); /* Zoom effect */
+  }
 
-.card-body {
-    background-color: transparent;
-}
+  .card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0); 
+    transition: background-color 0.3s ease; 
+    z-index: 1; 
+  }
+  
+  .card:hover::before {
+    background-color: rgba(255, 255, 255, 0.3); 
+  }
+  
+  .card-body {
+    position: relative;
+    z-index: 2; 
+  }
+  
