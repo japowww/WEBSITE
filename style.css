@@ -7,8 +7,8 @@ padding-top: 80px;
 overflow-x: hidden;
 }
 .second-background {
-margin-top: 3rem;
-    background-color: #D6BD98;
+margin-top: 5rem;
+    background-color:   #fffdfb;
     color: white;
     padding: 50px 20px;
     text-align: center;
@@ -116,20 +116,6 @@ footer {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
     margin: 20px 0; 
 }
-.carousel {
-    max-width: 100%; 
-    margin: auto;
-}
-.carousel-item img {
-    width: 100%;
-    height: 650px;
-    object-fit:unset    ; 
-    margin-top: 3rem;
-}
-.carousel-inner, .carousel-item {
-    height: 650px;          
-    overflow: hidden; 
-}
 .card {
     position: relative;
     overflow: hidden; /* Ensures the overlay doesn't go outside the card */
@@ -163,4 +149,42 @@ footer {
     position: relative;
     z-index: 2; 
   }
-  
+  .icon-row {
+    display: flex;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .icon-item {
+    margin-top: 2rem;
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 2rem;
+    text-align: center; /* Ensure the text is centered below the icon */
+}
+
+.icon-item i {
+    width: 100%; /* Ensure the icon takes up the full width */
+    height: 100%; /* Ensure the icon takes up the full height */
+    object-fit: contain; /* Prevents the icon from stretching */
+    font-size: 3rem; /* Adjust the icon size if needed */
+}
+
+
+
+  .icon-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.icon-name {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(165, 128, 128); /* Ensure the text color contrasts with the background */
+    margin-top: 10px; /* Add spacing between the image and text */
+    font-size: 1.2rem; /* Adjust font size as needed */
+}
+
+
+ 
