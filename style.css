@@ -118,7 +118,7 @@ footer {
 }
 .card {
     position: relative;
-    overflow: hidden; /* Ensures the overlay doesn't go outside the card */
+    overflow: hidden;
   }
   
   .card img {
@@ -126,7 +126,7 @@ footer {
   }
   
   .card:hover img {
-    transform: scale(.99); /* Zoom effect */
+    transform: scale(.99); 
   }
 
   .card::before {
@@ -151,27 +151,27 @@ footer {
   }
   .icon-row {
     display: flex;
-    gap: 2.5rem;
+    gap: 60px;
     flex-wrap: wrap;
     justify-content: center;
   }
 
   .icon-item {
     margin-top: 2rem;
-    width: 5.5rem;
-    height: 5.5rem;
-    border-radius: 2rem;
-    text-align: center; /* Ensure the text is centered below the icon */
-}
-
-.icon-item i {
-    width: 100%; /* Ensure the icon takes up the full width */
-    height: 100%; /* Ensure the icon takes up the full height */
-    object-fit: contain; /* Prevents the icon from stretching */
-    font-size: 3rem; /* Adjust the icon size if needed */
+    width: 5rem;
+    height: 5rem;
+    border-radius: 1rem;
+    text-align: center; 
+    
 }
 
 
+.container.icon-row {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+}
 
   .icon-item img {
     width: 100%;
@@ -181,10 +181,21 @@ footer {
 
 .icon-name {
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(165, 128, 128); /* Ensure the text color contrasts with the background */
-    margin-top: 10px; /* Add spacing between the image and text */
-    font-size: 1.2rem; /* Adjust font size as needed */
+    color: white; 
+    margin-top: 10px; 
+    word-wrap: break-word; 
+    word-break: break-word; 
+    text-align: center; 
+    font-size: 14px; 
+    line-height: 1.2; 
+}
+.icon-link {
+    text-decoration: none;
 }
 
+.icon-link:hover {
+    text-decoration: underline;
+    color: white; 
+}
 
  
