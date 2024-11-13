@@ -194,5 +194,16 @@ footer {
     text-decoration: underline;
     color: white; 
 }
+.space{
+    margin-top: 2rem;
+    background-color: #1A3636;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 1rem;
+    margin-bottom: 2rem;
+}
 
  
