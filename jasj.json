@@ -1,0 +1,11 @@
+[
+    { "restaurant_id": 1, "restaurant_name": "Matthew's Restobar", "restaurant_url": "MR.html" },
+    { "restaurant_id": 2, "restaurant_name": "Stone House Station", "restaurant_url": "SH.html" },
+    { "restaurant_id": 3, "restaurant_name": "Del Monte Clubhouse", "restaurant_url": "DMC.html" },
+    { "restaurant_id": 4, "restaurant_name": "RRJ FOOD HAUS", "restaurant_url": "RRJ.html" },
+    { "restaurant_id": 5, "restaurant_name": "SJ DINNER", "restaurant_url": "SJ.html" },
+    { "restaurant_id": 6, "restaurant_name": "PIZZA KID", "restaurant_url": "PK.html" },
+    { "restaurant_id": 7, "restaurant_name": "Lamp Lighter Café", "restaurant_url": "LLC.html" },
+    { "restaurant_id": 8, "restaurant_name": "Baelly’s", "restaurant_url": "Bllys.html" },
+    { "restaurant_id": 9, "restaurant_name": "Frontyard Snack Bar", "restaurant_url": "FSB.html" }
+]

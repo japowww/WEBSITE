@@ -11,6 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    
     <style>
         .navbar-toggler {
             border: none; 
@@ -18,6 +19,9 @@
 
         .navbar-toggler-icon {
             background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="white" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E'); 
+        }
+        #restaurantSearchList {
+            display: none; /* Hide initially */
         }
     </style>
 </head>
@@ -46,11 +50,14 @@
         </div>
     </nav>
 
-
-    <form class="d-flex mt-3" role="search" style="width: 25%; margin-left: 40%; margin-bottom: 20px;">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-success" type="submit">Search</button>
+    <form class="d-flex mt-3" role="search" style="width: 25%; margin-left: 37.5%; margin-bottom: 20px;" id="restaurantSearchForm">
+        <input class="form-control me-2" type="search" placeholder="Search for restaurants..." aria-label="Search" id="restaurantSearchBar">
+        <button class="btn btn-success" type="button" id="searchBtn">Search</button>
     </form>
+
+    <div id="restaurantSearchList"></div>
+    
+    
 
    
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel" style="background-color: white;">
@@ -275,7 +282,7 @@
 
 
 
-
+<script src="brain.js"></script>
 
     
        
