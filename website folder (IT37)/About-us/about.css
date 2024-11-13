@@ -1,26 +1,22 @@
-.body{
+.body {
     background-color: #1A3636;
-background-repeat: no-repeat;
-background-size: cover;
-backdrop-filter: blur(3px) ;
-padding-top: 80px;  
-overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(3px);
+    padding-top: 80px;
+    overflow-x: hidden;
 }
-
 
 .navbar {
     background-color: #1A3636;
-   
 }
 
 .navbar .nav-link {
     color: #ffffff;
-   
 }
 
 .navbar .nav-link:hover {
     color: #ffc107;
-    
 }
 
 .footer-links {
@@ -33,40 +29,71 @@ overflow-x: hidden;
 .footer-link {
     color: #fff; 
     text-decoration: none;
+    justify-content: center;
 }
 
 .footer-link:hover {
     color: #ccc; 
     text-decoration: underline;
+    justify-content: center;
 }
 
 footer {
-    background-color: #1A3636; 
+    background-color: #1A3636;
     padding: 150px 0;
     color: white;
+    justify-content: center;
 }
-.container{
+.container {
     color: white;
 }
-.word{
-    font-size: 1.5em; 
-    line-height: 1.5; 
+
+.word {
+    font-size: 1.5em;
+    line-height: 1.5;
 }
+
 .about-me {
-    display: flex; /* Use flexbox */
-    align-items: center; /* Vertically align content */
-    gap: 20px; /* Space between image and text */
-    padding: 40px; /* Optional padding around the content */
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+    padding: 40px; 
 }
 
 .about-me img {
-    max-width: 2000px; /* Adjust image size as needed */
+    max-width: 2000px;
     height: auto;
-    border-radius: 10px; /* Optional rounded corners for image */
+    border-radius: 10px; 
 }
-h1 {
+
+.h1 {
     color: white;
+
 }
+
 .info {
     color: white;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.description {
+    font-size: 16px;
+    color: #eceaea;
+}
+.title {
+    text-align: center;
+    color:#ccc;
 }
